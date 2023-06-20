@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "jquery": "^3.7.0",
+    "jquery-ui": "^1.13.2"
+  },
+  "name": "hw17-js-moroz",
+  "description": "I as the user should see popup with content \"Modal window\" when clicked on button.",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "start /B http-server && start http://localhost:8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OkMoroz/hw17-JS-moroz.git"
+  },
+  "author": "Oksana M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OkMoroz/hw17-JS-moroz/issues"
+  },
+  "homepage": "https://github.com/OkMoroz/hw17-JS-moroz#readme"
+}
