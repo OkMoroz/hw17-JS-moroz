@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #242132;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#btn {
+  padding: 30px 80px;
+  background-color: rgb(248, 238, 238);
+  color: #242132;
+  font-size: 36px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#modalWindow {
+  display: none;
+  background-color: rgb(248, 238, 238);
+  text-align: center;
+  color: #242132;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.ui-dialog-title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: #242132;
+  background-color: rgb(248, 238, 238);
+  padding: 10px;
+}
+
+.ui-dialog-titlebar-close {
+  color: rgb(248, 238, 238);
+}
